@@ -21,7 +21,7 @@ Multiple different MIDI interfaces are supported: **MIDI over USB**, Serial MIDI
 format, and allows you to input text based messages), **MIDI over Bluetooth LE**
 (experimental).
 
-For MIDI output, you can use **push buttons**, toggle switches, 
+For MIDI input, you can use **push buttons**, toggle switches, 
 **potentiometers**, faders, **rotary encoders**, etc.
 
 All digital inputs are **debounced**, and all analog inputs are filtered using 
@@ -31,7 +31,7 @@ without introducing latency.
 These can be used to send MIDI notes, Control Changes, Pitch Bends, 
 Program/Patch changes, etc.
 
-For MIDI input, you can use **LEDs** to display the state of different settings, 
+For MIDI output, you can use **LEDs** to display the state of different settings, 
 to display the audio level of each channel (**VU meters**), the positions of knobs 
 (V-Pot **LED rings**), etc.  
 You can also add an **OLED display** (e.g. SSD1306) to display a nice overview 
